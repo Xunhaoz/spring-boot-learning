@@ -1,0 +1,288 @@
+2024-06-29 14:27:01,422 [DESKTOP-00GDGS0] DEBUG 21544 [           main] c.w.h.HealthCareApiApplication           51 : Running with Spring Boot v3.2.7, Spring v6.1.10
+2024-06-29 14:27:02,470 [DESKTOP-00GDGS0] DEBUG 21544 [           main] com.zaxxer.hikari.HikariConfig           968 : Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@36baf30c
+2024-06-29 14:36:06,245 [DESKTOP-00GDGS0] DEBUG 21544 [omcat-handler-9] com.zaxxer.hikari.HikariConfig           1100 : HikariPool-1 - configuration:
+2024-06-29 14:36:06,249 [DESKTOP-00GDGS0] DEBUG 21544 [omcat-handler-9] com.zaxxer.hikari.HikariConfig           1132 : allowPoolSuspension.............false
+2024-06-29 14:36:06,249 [DESKTOP-00GDGS0] DEBUG 21544 [omcat-handler-9] com.zaxxer.hikari.HikariConfig           1132 : autoCommit......................true
+2024-06-29 14:36:06,249 [DESKTOP-00GDGS0] DEBUG 21544 [omcat-handler-9] com.zaxxer.hikari.HikariConfig           1132 : catalog.........................none
+2024-06-29 14:36:06,250 [DESKTOP-00GDGS0] DEBUG 21544 [omcat-handler-9] com.zaxxer.hikari.HikariConfig           1132 : connectionInitSql...............none
+2024-06-29 14:36:06,250 [DESKTOP-00GDGS0] DEBUG 21544 [omcat-handler-9] com.zaxxer.hikari.HikariConfig           1132 : connectionTestQuery.............none
+2024-06-29 14:36:06,250 [DESKTOP-00GDGS0] DEBUG 21544 [omcat-handler-9] com.zaxxer.hikari.HikariConfig           1132 : connectionTimeout...............30000
+2024-06-29 14:36:06,250 [DESKTOP-00GDGS0] DEBUG 21544 [omcat-handler-9] com.zaxxer.hikari.HikariConfig           1132 : dataSource......................none
+2024-06-29 14:36:06,250 [DESKTOP-00GDGS0] DEBUG 21544 [omcat-handler-9] com.zaxxer.hikari.HikariConfig           1132 : dataSourceClassName.............none
+2024-06-29 14:36:06,250 [DESKTOP-00GDGS0] DEBUG 21544 [omcat-handler-9] com.zaxxer.hikari.HikariConfig           1132 : dataSourceJNDI..................none
+2024-06-29 14:36:06,252 [DESKTOP-00GDGS0] DEBUG 21544 [omcat-handler-9] com.zaxxer.hikari.HikariConfig           1132 : dataSourceProperties............{password=<masked>}
+2024-06-29 14:36:06,252 [DESKTOP-00GDGS0] DEBUG 21544 [omcat-handler-9] com.zaxxer.hikari.HikariConfig           1132 : driverClassName................."com.mysql.cj.jdbc.Driver"
+2024-06-29 14:36:06,252 [DESKTOP-00GDGS0] DEBUG 21544 [omcat-handler-9] com.zaxxer.hikari.HikariConfig           1132 : exceptionOverrideClassName......none
+2024-06-29 14:36:06,253 [DESKTOP-00GDGS0] DEBUG 21544 [omcat-handler-9] com.zaxxer.hikari.HikariConfig           1132 : healthCheckProperties...........{}
+2024-06-29 14:36:06,253 [DESKTOP-00GDGS0] DEBUG 21544 [omcat-handler-9] com.zaxxer.hikari.HikariConfig           1132 : healthCheckRegistry.............none
+2024-06-29 14:36:06,253 [DESKTOP-00GDGS0] DEBUG 21544 [omcat-handler-9] com.zaxxer.hikari.HikariConfig           1132 : idleTimeout.....................600000
+2024-06-29 14:36:06,253 [DESKTOP-00GDGS0] DEBUG 21544 [omcat-handler-9] com.zaxxer.hikari.HikariConfig           1132 : initializationFailTimeout.......1
+2024-06-29 14:36:06,253 [DESKTOP-00GDGS0] DEBUG 21544 [omcat-handler-9] com.zaxxer.hikari.HikariConfig           1132 : isolateInternalQueries..........false
+2024-06-29 14:36:06,253 [DESKTOP-00GDGS0] DEBUG 21544 [omcat-handler-9] com.zaxxer.hikari.HikariConfig           1132 : jdbcUrl.........................jdbc:mysql://localhost:3306/health-care-data
+2024-06-29 14:36:06,254 [DESKTOP-00GDGS0] DEBUG 21544 [omcat-handler-9] com.zaxxer.hikari.HikariConfig           1132 : keepaliveTime...................0
+2024-06-29 14:36:06,254 [DESKTOP-00GDGS0] DEBUG 21544 [omcat-handler-9] com.zaxxer.hikari.HikariConfig           1132 : leakDetectionThreshold..........0
+2024-06-29 14:36:06,254 [DESKTOP-00GDGS0] DEBUG 21544 [omcat-handler-9] com.zaxxer.hikari.HikariConfig           1132 : maxLifetime.....................1800000
+2024-06-29 14:36:06,254 [DESKTOP-00GDGS0] DEBUG 21544 [omcat-handler-9] com.zaxxer.hikari.HikariConfig           1132 : maximumPoolSize.................3
+2024-06-29 14:36:06,255 [DESKTOP-00GDGS0] DEBUG 21544 [omcat-handler-9] com.zaxxer.hikari.HikariConfig           1132 : metricRegistry..................none
+2024-06-29 14:36:06,255 [DESKTOP-00GDGS0] DEBUG 21544 [omcat-handler-9] com.zaxxer.hikari.HikariConfig           1132 : metricsTrackerFactory...........none
+2024-06-29 14:36:06,255 [DESKTOP-00GDGS0] DEBUG 21544 [omcat-handler-9] com.zaxxer.hikari.HikariConfig           1132 : minimumIdle.....................3
+2024-06-29 14:36:06,255 [DESKTOP-00GDGS0] DEBUG 21544 [omcat-handler-9] com.zaxxer.hikari.HikariConfig           1132 : password........................<masked>
+2024-06-29 14:36:06,255 [DESKTOP-00GDGS0] DEBUG 21544 [omcat-handler-9] com.zaxxer.hikari.HikariConfig           1132 : poolName........................"HikariPool-1"
+2024-06-29 14:36:06,256 [DESKTOP-00GDGS0] DEBUG 21544 [omcat-handler-9] com.zaxxer.hikari.HikariConfig           1132 : readOnly........................false
+2024-06-29 14:36:06,256 [DESKTOP-00GDGS0] DEBUG 21544 [omcat-handler-9] com.zaxxer.hikari.HikariConfig           1132 : registerMbeans..................false
+2024-06-29 14:36:06,256 [DESKTOP-00GDGS0] DEBUG 21544 [omcat-handler-9] com.zaxxer.hikari.HikariConfig           1132 : scheduledExecutor...............none
+2024-06-29 14:36:06,256 [DESKTOP-00GDGS0] DEBUG 21544 [omcat-handler-9] com.zaxxer.hikari.HikariConfig           1132 : schema..........................none
+2024-06-29 14:36:06,256 [DESKTOP-00GDGS0] DEBUG 21544 [omcat-handler-9] com.zaxxer.hikari.HikariConfig           1132 : threadFactory...................internal
+2024-06-29 14:36:06,257 [DESKTOP-00GDGS0] DEBUG 21544 [omcat-handler-9] com.zaxxer.hikari.HikariConfig           1132 : transactionIsolation............default
+2024-06-29 14:36:06,257 [DESKTOP-00GDGS0] DEBUG 21544 [omcat-handler-9] com.zaxxer.hikari.HikariConfig           1132 : username........................"walnutek"
+2024-06-29 14:36:06,257 [DESKTOP-00GDGS0] DEBUG 21544 [omcat-handler-9] com.zaxxer.hikari.HikariConfig           1132 : validationTimeout...............5000
+2024-06-29 14:36:06,441 [DESKTOP-00GDGS0] DEBUG 21544 [omcat-handler-9] com.zaxxer.hikari.pool.PoolBase          373 : HikariPool-1 - Failed to create/setup connection: Unknown database 'health-care-data'
+2024-06-29 14:36:06,441 [DESKTOP-00GDGS0] DEBUG 21544 [omcat-handler-9] com.zaxxer.hikari.pool.HikariPool        498 : HikariPool-1 - Cannot acquire connection from data source
+java.sql.SQLSyntaxErrorException: Unknown database 'health-care-data'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:815)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:438)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:189)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:359)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:201)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:470)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:100)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.springframework.jdbc.datasource.DataSourceTransactionManager.doBegin(DataSourceTransactionManager.java:269)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.startTransaction(AbstractPlatformTransactionManager.java:532)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.getTransaction(AbstractPlatformTransactionManager.java:405)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.createTransactionIfNecessary(TransactionAspectSupport.java:617)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:386)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:720)
+	at com.walnutek.healthcareapi.model.service.PostService$$SpringCGLIB$$0.getDetail(<generated>)
+	at com.walnutek.healthcareapi.controller.PostController.getPost(PostController.java:29)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:663)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at java.base/java.lang.VirtualThread.run(VirtualThread.java:311)
+2024-06-29 14:59:46,501 [DESKTOP-00GDGS0] DEBUG 21544 [mcat-handler-15] com.zaxxer.hikari.HikariConfig           1100 : HikariPool-1 - configuration:
+2024-06-29 14:59:46,503 [DESKTOP-00GDGS0] DEBUG 21544 [mcat-handler-15] com.zaxxer.hikari.HikariConfig           1132 : allowPoolSuspension.............false
+2024-06-29 14:59:46,503 [DESKTOP-00GDGS0] DEBUG 21544 [mcat-handler-15] com.zaxxer.hikari.HikariConfig           1132 : autoCommit......................true
+2024-06-29 14:59:46,503 [DESKTOP-00GDGS0] DEBUG 21544 [mcat-handler-15] com.zaxxer.hikari.HikariConfig           1132 : catalog.........................none
+2024-06-29 14:59:46,504 [DESKTOP-00GDGS0] DEBUG 21544 [mcat-handler-15] com.zaxxer.hikari.HikariConfig           1132 : connectionInitSql...............none
+2024-06-29 14:59:46,504 [DESKTOP-00GDGS0] DEBUG 21544 [mcat-handler-15] com.zaxxer.hikari.HikariConfig           1132 : connectionTestQuery.............none
+2024-06-29 14:59:46,504 [DESKTOP-00GDGS0] DEBUG 21544 [mcat-handler-15] com.zaxxer.hikari.HikariConfig           1132 : connectionTimeout...............30000
+2024-06-29 14:59:46,504 [DESKTOP-00GDGS0] DEBUG 21544 [mcat-handler-15] com.zaxxer.hikari.HikariConfig           1132 : dataSource......................none
+2024-06-29 14:59:46,505 [DESKTOP-00GDGS0] DEBUG 21544 [mcat-handler-15] com.zaxxer.hikari.HikariConfig           1132 : dataSourceClassName.............none
+2024-06-29 14:59:46,505 [DESKTOP-00GDGS0] DEBUG 21544 [mcat-handler-15] com.zaxxer.hikari.HikariConfig           1132 : dataSourceJNDI..................none
+2024-06-29 14:59:46,505 [DESKTOP-00GDGS0] DEBUG 21544 [mcat-handler-15] com.zaxxer.hikari.HikariConfig           1132 : dataSourceProperties............{password=<masked>}
+2024-06-29 14:59:46,505 [DESKTOP-00GDGS0] DEBUG 21544 [mcat-handler-15] com.zaxxer.hikari.HikariConfig           1132 : driverClassName................."com.mysql.cj.jdbc.Driver"
+2024-06-29 14:59:46,505 [DESKTOP-00GDGS0] DEBUG 21544 [mcat-handler-15] com.zaxxer.hikari.HikariConfig           1132 : exceptionOverrideClassName......none
+2024-06-29 14:59:46,505 [DESKTOP-00GDGS0] DEBUG 21544 [mcat-handler-15] com.zaxxer.hikari.HikariConfig           1132 : healthCheckProperties...........{}
+2024-06-29 14:59:46,505 [DESKTOP-00GDGS0] DEBUG 21544 [mcat-handler-15] com.zaxxer.hikari.HikariConfig           1132 : healthCheckRegistry.............none
+2024-06-29 14:59:46,506 [DESKTOP-00GDGS0] DEBUG 21544 [mcat-handler-15] com.zaxxer.hikari.HikariConfig           1132 : idleTimeout.....................600000
+2024-06-29 14:59:46,506 [DESKTOP-00GDGS0] DEBUG 21544 [mcat-handler-15] com.zaxxer.hikari.HikariConfig           1132 : initializationFailTimeout.......1
+2024-06-29 14:59:46,506 [DESKTOP-00GDGS0] DEBUG 21544 [mcat-handler-15] com.zaxxer.hikari.HikariConfig           1132 : isolateInternalQueries..........false
+2024-06-29 14:59:46,506 [DESKTOP-00GDGS0] DEBUG 21544 [mcat-handler-15] com.zaxxer.hikari.HikariConfig           1132 : jdbcUrl.........................jdbc:mysql://localhost:3306/health-care-data
+2024-06-29 14:59:46,506 [DESKTOP-00GDGS0] DEBUG 21544 [mcat-handler-15] com.zaxxer.hikari.HikariConfig           1132 : keepaliveTime...................0
+2024-06-29 14:59:46,506 [DESKTOP-00GDGS0] DEBUG 21544 [mcat-handler-15] com.zaxxer.hikari.HikariConfig           1132 : leakDetectionThreshold..........0
+2024-06-29 14:59:46,506 [DESKTOP-00GDGS0] DEBUG 21544 [mcat-handler-15] com.zaxxer.hikari.HikariConfig           1132 : maxLifetime.....................1800000
+2024-06-29 14:59:46,508 [DESKTOP-00GDGS0] DEBUG 21544 [mcat-handler-15] com.zaxxer.hikari.HikariConfig           1132 : maximumPoolSize.................3
+2024-06-29 14:59:46,508 [DESKTOP-00GDGS0] DEBUG 21544 [mcat-handler-15] com.zaxxer.hikari.HikariConfig           1132 : metricRegistry..................none
+2024-06-29 14:59:46,508 [DESKTOP-00GDGS0] DEBUG 21544 [mcat-handler-15] com.zaxxer.hikari.HikariConfig           1132 : metricsTrackerFactory...........none
+2024-06-29 14:59:46,508 [DESKTOP-00GDGS0] DEBUG 21544 [mcat-handler-15] com.zaxxer.hikari.HikariConfig           1132 : minimumIdle.....................3
+2024-06-29 14:59:46,508 [DESKTOP-00GDGS0] DEBUG 21544 [mcat-handler-15] com.zaxxer.hikari.HikariConfig           1132 : password........................<masked>
+2024-06-29 14:59:46,508 [DESKTOP-00GDGS0] DEBUG 21544 [mcat-handler-15] com.zaxxer.hikari.HikariConfig           1132 : poolName........................"HikariPool-1"
+2024-06-29 14:59:46,509 [DESKTOP-00GDGS0] DEBUG 21544 [mcat-handler-15] com.zaxxer.hikari.HikariConfig           1132 : readOnly........................false
+2024-06-29 14:59:46,509 [DESKTOP-00GDGS0] DEBUG 21544 [mcat-handler-15] com.zaxxer.hikari.HikariConfig           1132 : registerMbeans..................false
+2024-06-29 14:59:46,509 [DESKTOP-00GDGS0] DEBUG 21544 [mcat-handler-15] com.zaxxer.hikari.HikariConfig           1132 : scheduledExecutor...............none
+2024-06-29 14:59:46,509 [DESKTOP-00GDGS0] DEBUG 21544 [mcat-handler-15] com.zaxxer.hikari.HikariConfig           1132 : schema..........................none
+2024-06-29 14:59:46,509 [DESKTOP-00GDGS0] DEBUG 21544 [mcat-handler-15] com.zaxxer.hikari.HikariConfig           1132 : threadFactory...................internal
+2024-06-29 14:59:46,509 [DESKTOP-00GDGS0] DEBUG 21544 [mcat-handler-15] com.zaxxer.hikari.HikariConfig           1132 : transactionIsolation............default
+2024-06-29 14:59:46,509 [DESKTOP-00GDGS0] DEBUG 21544 [mcat-handler-15] com.zaxxer.hikari.HikariConfig           1132 : username........................"walnutek"
+2024-06-29 14:59:46,510 [DESKTOP-00GDGS0] DEBUG 21544 [mcat-handler-15] com.zaxxer.hikari.HikariConfig           1132 : validationTimeout...............5000
+2024-06-29 14:59:46,513 [DESKTOP-00GDGS0] DEBUG 21544 [mcat-handler-15] com.zaxxer.hikari.pool.PoolBase          373 : HikariPool-1 - Failed to create/setup connection: Unknown database 'health-care-data'
+2024-06-29 14:59:46,513 [DESKTOP-00GDGS0] DEBUG 21544 [mcat-handler-15] com.zaxxer.hikari.pool.HikariPool        498 : HikariPool-1 - Cannot acquire connection from data source
+java.sql.SQLSyntaxErrorException: Unknown database 'health-care-data'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:815)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:438)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:189)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:359)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:201)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:470)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:100)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.springframework.jdbc.datasource.DataSourceTransactionManager.doBegin(DataSourceTransactionManager.java:269)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.startTransaction(AbstractPlatformTransactionManager.java:532)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.getTransaction(AbstractPlatformTransactionManager.java:405)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.createTransactionIfNecessary(TransactionAspectSupport.java:617)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:386)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:720)
+	at com.walnutek.healthcareapi.model.service.PostService$$SpringCGLIB$$0.post(<generated>)
+	at com.walnutek.healthcareapi.controller.PostController.post(PostController.java:35)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:663)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at java.base/java.lang.VirtualThread.run(VirtualThread.java:311)
+2024-06-29 15:00:57,562 [DESKTOP-00GDGS0] DEBUG 21544 [mcat-handler-17] com.zaxxer.hikari.HikariConfig           1100 : HikariPool-1 - configuration:
+2024-06-29 15:00:57,562 [DESKTOP-00GDGS0] DEBUG 21544 [mcat-handler-17] com.zaxxer.hikari.HikariConfig           1132 : allowPoolSuspension.............false
+2024-06-29 15:00:57,562 [DESKTOP-00GDGS0] DEBUG 21544 [mcat-handler-17] com.zaxxer.hikari.HikariConfig           1132 : autoCommit......................true
+2024-06-29 15:00:57,563 [DESKTOP-00GDGS0] DEBUG 21544 [mcat-handler-17] com.zaxxer.hikari.HikariConfig           1132 : catalog.........................none
+2024-06-29 15:00:57,563 [DESKTOP-00GDGS0] DEBUG 21544 [mcat-handler-17] com.zaxxer.hikari.HikariConfig           1132 : connectionInitSql...............none
+2024-06-29 15:00:57,563 [DESKTOP-00GDGS0] DEBUG 21544 [mcat-handler-17] com.zaxxer.hikari.HikariConfig           1132 : connectionTestQuery.............none
+2024-06-29 15:00:57,564 [DESKTOP-00GDGS0] DEBUG 21544 [mcat-handler-17] com.zaxxer.hikari.HikariConfig           1132 : connectionTimeout...............30000
+2024-06-29 15:00:57,564 [DESKTOP-00GDGS0] DEBUG 21544 [mcat-handler-17] com.zaxxer.hikari.HikariConfig           1132 : dataSource......................none
+2024-06-29 15:00:57,564 [DESKTOP-00GDGS0] DEBUG 21544 [mcat-handler-17] com.zaxxer.hikari.HikariConfig           1132 : dataSourceClassName.............none
+2024-06-29 15:00:57,564 [DESKTOP-00GDGS0] DEBUG 21544 [mcat-handler-17] com.zaxxer.hikari.HikariConfig           1132 : dataSourceJNDI..................none
+2024-06-29 15:00:57,564 [DESKTOP-00GDGS0] DEBUG 21544 [mcat-handler-17] com.zaxxer.hikari.HikariConfig           1132 : dataSourceProperties............{password=<masked>}
+2024-06-29 15:00:57,565 [DESKTOP-00GDGS0] DEBUG 21544 [mcat-handler-17] com.zaxxer.hikari.HikariConfig           1132 : driverClassName................."com.mysql.cj.jdbc.Driver"
+2024-06-29 15:00:57,565 [DESKTOP-00GDGS0] DEBUG 21544 [mcat-handler-17] com.zaxxer.hikari.HikariConfig           1132 : exceptionOverrideClassName......none
+2024-06-29 15:00:57,565 [DESKTOP-00GDGS0] DEBUG 21544 [mcat-handler-17] com.zaxxer.hikari.HikariConfig           1132 : healthCheckProperties...........{}
+2024-06-29 15:00:57,565 [DESKTOP-00GDGS0] DEBUG 21544 [mcat-handler-17] com.zaxxer.hikari.HikariConfig           1132 : healthCheckRegistry.............none
+2024-06-29 15:00:57,565 [DESKTOP-00GDGS0] DEBUG 21544 [mcat-handler-17] com.zaxxer.hikari.HikariConfig           1132 : idleTimeout.....................600000
+2024-06-29 15:00:57,565 [DESKTOP-00GDGS0] DEBUG 21544 [mcat-handler-17] com.zaxxer.hikari.HikariConfig           1132 : initializationFailTimeout.......1
+2024-06-29 15:00:57,566 [DESKTOP-00GDGS0] DEBUG 21544 [mcat-handler-17] com.zaxxer.hikari.HikariConfig           1132 : isolateInternalQueries..........false
+2024-06-29 15:00:57,566 [DESKTOP-00GDGS0] DEBUG 21544 [mcat-handler-17] com.zaxxer.hikari.HikariConfig           1132 : jdbcUrl.........................jdbc:mysql://localhost:3306/health-care-data
+2024-06-29 15:00:57,567 [DESKTOP-00GDGS0] DEBUG 21544 [mcat-handler-17] com.zaxxer.hikari.HikariConfig           1132 : keepaliveTime...................0
+2024-06-29 15:00:57,567 [DESKTOP-00GDGS0] DEBUG 21544 [mcat-handler-17] com.zaxxer.hikari.HikariConfig           1132 : leakDetectionThreshold..........0
+2024-06-29 15:00:57,567 [DESKTOP-00GDGS0] DEBUG 21544 [mcat-handler-17] com.zaxxer.hikari.HikariConfig           1132 : maxLifetime.....................1800000
+2024-06-29 15:00:57,567 [DESKTOP-00GDGS0] DEBUG 21544 [mcat-handler-17] com.zaxxer.hikari.HikariConfig           1132 : maximumPoolSize.................3
+2024-06-29 15:00:57,567 [DESKTOP-00GDGS0] DEBUG 21544 [mcat-handler-17] com.zaxxer.hikari.HikariConfig           1132 : metricRegistry..................none
+2024-06-29 15:00:57,567 [DESKTOP-00GDGS0] DEBUG 21544 [mcat-handler-17] com.zaxxer.hikari.HikariConfig           1132 : metricsTrackerFactory...........none
+2024-06-29 15:00:57,567 [DESKTOP-00GDGS0] DEBUG 21544 [mcat-handler-17] com.zaxxer.hikari.HikariConfig           1132 : minimumIdle.....................3
+2024-06-29 15:00:57,567 [DESKTOP-00GDGS0] DEBUG 21544 [mcat-handler-17] com.zaxxer.hikari.HikariConfig           1132 : password........................<masked>
+2024-06-29 15:00:57,567 [DESKTOP-00GDGS0] DEBUG 21544 [mcat-handler-17] com.zaxxer.hikari.HikariConfig           1132 : poolName........................"HikariPool-1"
+2024-06-29 15:00:57,568 [DESKTOP-00GDGS0] DEBUG 21544 [mcat-handler-17] com.zaxxer.hikari.HikariConfig           1132 : readOnly........................false
+2024-06-29 15:00:57,568 [DESKTOP-00GDGS0] DEBUG 21544 [mcat-handler-17] com.zaxxer.hikari.HikariConfig           1132 : registerMbeans..................false
+2024-06-29 15:00:57,568 [DESKTOP-00GDGS0] DEBUG 21544 [mcat-handler-17] com.zaxxer.hikari.HikariConfig           1132 : scheduledExecutor...............none
+2024-06-29 15:00:57,568 [DESKTOP-00GDGS0] DEBUG 21544 [mcat-handler-17] com.zaxxer.hikari.HikariConfig           1132 : schema..........................none
+2024-06-29 15:00:57,569 [DESKTOP-00GDGS0] DEBUG 21544 [mcat-handler-17] com.zaxxer.hikari.HikariConfig           1132 : threadFactory...................internal
+2024-06-29 15:00:57,569 [DESKTOP-00GDGS0] DEBUG 21544 [mcat-handler-17] com.zaxxer.hikari.HikariConfig           1132 : transactionIsolation............default
+2024-06-29 15:00:57,569 [DESKTOP-00GDGS0] DEBUG 21544 [mcat-handler-17] com.zaxxer.hikari.HikariConfig           1132 : username........................"walnutek"
+2024-06-29 15:00:57,569 [DESKTOP-00GDGS0] DEBUG 21544 [mcat-handler-17] com.zaxxer.hikari.HikariConfig           1132 : validationTimeout...............5000
+2024-06-29 15:00:57,691 [DESKTOP-00GDGS0] DEBUG 21544 [mcat-handler-17] c.w.h.model.dao.PostDao.insert           135 : ==>  Preparing: INSERT INTO `post` ( title, content, createTime ) VALUES ( ?, ?, ? )
+2024-06-29 15:00:57,715 [DESKTOP-00GDGS0] DEBUG 21544 [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        414 : HikariPool-1 - Pool stats (total=1, active=1, idle=0, waiting=0)
+2024-06-29 15:00:57,719 [DESKTOP-00GDGS0] DEBUG 21544 [onnection adder] com.zaxxer.hikari.pool.HikariPool        738 : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3e7d6f66
+2024-06-29 15:00:57,720 [DESKTOP-00GDGS0] DEBUG 21544 [mcat-handler-17] c.w.h.model.dao.PostDao.insert           135 : ==> Parameters: title(String), content(String), 2024-06-29T15:00:57.561142800(LocalDateTime)
+2024-06-29 15:00:57,734 [DESKTOP-00GDGS0] DEBUG 21544 [onnection adder] com.zaxxer.hikari.pool.HikariPool        738 : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7f40655d
+2024-06-29 15:00:57,748 [DESKTOP-00GDGS0] DEBUG 21544 [onnection adder] com.zaxxer.hikari.pool.HikariPool        414 : HikariPool-1 - After adding stats (total=3, active=1, idle=2, waiting=0)
+2024-06-29 15:01:27,727 [DESKTOP-00GDGS0] DEBUG 21544 [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        414 : HikariPool-1 - Pool stats (total=3, active=0, idle=3, waiting=0)
+2024-06-29 15:01:27,727 [DESKTOP-00GDGS0] DEBUG 21544 [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        521 : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-06-29 15:01:57,741 [DESKTOP-00GDGS0] DEBUG 21544 [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        414 : HikariPool-1 - Pool stats (total=3, active=0, idle=3, waiting=0)
+2024-06-29 15:01:57,741 [DESKTOP-00GDGS0] DEBUG 21544 [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        521 : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-06-29 15:02:05,454 [DESKTOP-00GDGS0] DEBUG 21544 [mcat-handler-19] c.w.h.model.dao.PostDao.insert           135 : ==>  Preparing: INSERT INTO `post` ( title, content, createTime ) VALUES ( ?, ?, ? )
+2024-06-29 15:02:05,454 [DESKTOP-00GDGS0] DEBUG 21544 [mcat-handler-19] c.w.h.model.dao.PostDao.insert           135 : ==> Parameters: title(String), content(String), 2024-06-29T15:02:05.452215900(LocalDateTime)
+2024-06-29 15:02:05,455 [DESKTOP-00GDGS0] DEBUG 21544 [mcat-handler-19] c.w.h.model.dao.PostDao.insert           135 : <==    Updates: 1
+2024-06-29 15:02:27,754 [DESKTOP-00GDGS0] DEBUG 21544 [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        414 : HikariPool-1 - Pool stats (total=3, active=0, idle=3, waiting=0)
+2024-06-29 15:02:27,754 [DESKTOP-00GDGS0] DEBUG 21544 [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        521 : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-06-29 15:02:57,766 [DESKTOP-00GDGS0] DEBUG 21544 [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        414 : HikariPool-1 - Pool stats (total=3, active=0, idle=3, waiting=0)
+2024-06-29 15:02:57,766 [DESKTOP-00GDGS0] DEBUG 21544 [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        521 : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-06-29 15:03:27,773 [DESKTOP-00GDGS0] DEBUG 21544 [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        414 : HikariPool-1 - Pool stats (total=3, active=0, idle=3, waiting=0)
+2024-06-29 15:03:27,773 [DESKTOP-00GDGS0] DEBUG 21544 [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        521 : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-06-29 15:03:57,776 [DESKTOP-00GDGS0] DEBUG 21544 [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        414 : HikariPool-1 - Pool stats (total=3, active=0, idle=3, waiting=0)
+2024-06-29 15:03:57,776 [DESKTOP-00GDGS0] DEBUG 21544 [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        521 : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-06-29 15:04:27,782 [DESKTOP-00GDGS0] DEBUG 21544 [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        414 : HikariPool-1 - Pool stats (total=3, active=0, idle=3, waiting=0)
+2024-06-29 15:04:27,782 [DESKTOP-00GDGS0] DEBUG 21544 [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        521 : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-06-29 15:04:57,790 [DESKTOP-00GDGS0] DEBUG 21544 [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        414 : HikariPool-1 - Pool stats (total=3, active=0, idle=3, waiting=0)
+2024-06-29 15:04:57,790 [DESKTOP-00GDGS0] DEBUG 21544 [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        521 : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-06-29 15:05:27,793 [DESKTOP-00GDGS0] DEBUG 21544 [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        414 : HikariPool-1 - Pool stats (total=3, active=0, idle=3, waiting=0)
+2024-06-29 15:05:27,793 [DESKTOP-00GDGS0] DEBUG 21544 [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        521 : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-06-29 15:05:37,619 [DESKTOP-00GDGS0] DEBUG 21544 [ionShutdownHook] com.zaxxer.hikari.pool.HikariPool        414 : HikariPool-1 - Before shutdown stats (total=3, active=0, idle=3, waiting=0)
+2024-06-29 15:05:37,620 [DESKTOP-00GDGS0] DEBUG 21544 [nnection closer] com.zaxxer.hikari.pool.PoolBase          132 : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@620331dc: (connection evicted)
+2024-06-29 15:05:37,621 [DESKTOP-00GDGS0] DEBUG 21544 [nnection closer] com.zaxxer.hikari.pool.PoolBase          132 : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3e7d6f66: (connection evicted)
+2024-06-29 15:05:37,621 [DESKTOP-00GDGS0] DEBUG 21544 [nnection closer] com.zaxxer.hikari.pool.PoolBase          132 : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7f40655d: (connection evicted)
+2024-06-29 15:05:37,622 [DESKTOP-00GDGS0] DEBUG 21544 [ionShutdownHook] com.zaxxer.hikari.pool.HikariPool        414 : HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)

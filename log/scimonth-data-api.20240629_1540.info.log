@@ -1,0 +1,15 @@
+2024-06-29 15:40:39,000 [DESKTOP-00GDGS0]  INFO 27292 [           main] c.w.h.HealthCareApiApplication           50 : Starting HealthCareApiApplication using Java 21 with PID 27292 (C:\Users\Xunhaoz\IdeaProjects\health-care-api\build\classes\java\main started by Xunhaoz in C:\Users\Xunhaoz\IdeaProjects\health-care-api)
+2024-06-29 15:40:39,003 [DESKTOP-00GDGS0]  INFO 27292 [           main] c.w.h.HealthCareApiApplication           654 : No active profile set, falling back to 1 default profile: "default"
+2024-06-29 15:40:40,220 [DESKTOP-00GDGS0]  INFO 27292 [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  109 : Tomcat initialized with port 8080 (http)
+2024-06-29 15:40:40,235 [DESKTOP-00GDGS0]  INFO 27292 [           main] o.a.coyote.http11.Http11NioProtocol      173 : The ["http-nio-8080"] connector has been configured to support HTTP upgrade to [h2c]
+2024-06-29 15:40:40,236 [DESKTOP-00GDGS0]  INFO 27292 [           main] o.a.coyote.http11.Http11NioProtocol      173 : Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-29 15:40:40,239 [DESKTOP-00GDGS0]  INFO 27292 [           main] o.apache.catalina.core.StandardService   173 : Starting service [Tomcat]
+2024-06-29 15:40:40,239 [DESKTOP-00GDGS0]  INFO 27292 [           main] o.apache.catalina.core.StandardEngine    173 : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-06-29 15:40:40,325 [DESKTOP-00GDGS0]  INFO 27292 [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       173 : Initializing Spring embedded WebApplicationContext
+2024-06-29 15:40:40,327 [DESKTOP-00GDGS0]  INFO 27292 [           main] w.s.c.ServletWebServerApplicationContext 296 : Root WebApplicationContext: initialization completed in 1269 ms
+2024-06-29 15:40:41,209 [DESKTOP-00GDGS0]  INFO 27292 [           main] o.a.coyote.http11.Http11NioProtocol      173 : Starting ProtocolHandler ["http-nio-8080"]
+2024-06-29 15:40:41,223 [DESKTOP-00GDGS0]  INFO 27292 [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  241 : Tomcat started on port 8080 (http) with context path ''
+2024-06-29 15:40:41,230 [DESKTOP-00GDGS0]  INFO 27292 [           main] c.w.h.HealthCareApiApplication           56 : Started HealthCareApiApplication in 3.032 seconds (process running for 3.657)
+2024-06-29 15:40:42,272 [DESKTOP-00GDGS0]  INFO 27292 [omcat-handler-0] o.a.c.c.C.[Tomcat].[localhost].[/]       173 : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-29 15:40:42,272 [DESKTOP-00GDGS0]  INFO 27292 [omcat-handler-0] o.s.web.servlet.DispatcherServlet        532 : Initializing Servlet 'dispatcherServlet'
+2024-06-29 15:40:42,274 [DESKTOP-00GDGS0]  INFO 27292 [omcat-handler-0] o.s.web.servlet.DispatcherServlet        554 : Completed initialization in 2 ms

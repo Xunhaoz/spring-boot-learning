@@ -1,0 +1,51 @@
+2024-06-29 15:05:41,050 [DESKTOP-00GDGS0] DEBUG 25912 [           main] c.w.h.HealthCareApiApplication           51 : Running with Spring Boot v3.2.7, Spring v6.1.10
+2024-06-29 15:05:42,485 [DESKTOP-00GDGS0] DEBUG 25912 [           main] com.zaxxer.hikari.HikariConfig           968 : Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@36baf30c
+2024-06-29 15:05:43,717 [DESKTOP-00GDGS0] DEBUG 25912 [omcat-handler-0] com.zaxxer.hikari.HikariConfig           1100 : HikariPool-1 - configuration:
+2024-06-29 15:05:43,720 [DESKTOP-00GDGS0] DEBUG 25912 [omcat-handler-0] com.zaxxer.hikari.HikariConfig           1132 : allowPoolSuspension.............false
+2024-06-29 15:05:43,720 [DESKTOP-00GDGS0] DEBUG 25912 [omcat-handler-0] com.zaxxer.hikari.HikariConfig           1132 : autoCommit......................true
+2024-06-29 15:05:43,722 [DESKTOP-00GDGS0] DEBUG 25912 [omcat-handler-0] com.zaxxer.hikari.HikariConfig           1132 : catalog.........................none
+2024-06-29 15:05:43,722 [DESKTOP-00GDGS0] DEBUG 25912 [omcat-handler-0] com.zaxxer.hikari.HikariConfig           1132 : connectionInitSql...............none
+2024-06-29 15:05:43,722 [DESKTOP-00GDGS0] DEBUG 25912 [omcat-handler-0] com.zaxxer.hikari.HikariConfig           1132 : connectionTestQuery.............none
+2024-06-29 15:05:43,723 [DESKTOP-00GDGS0] DEBUG 25912 [omcat-handler-0] com.zaxxer.hikari.HikariConfig           1132 : connectionTimeout...............30000
+2024-06-29 15:05:43,723 [DESKTOP-00GDGS0] DEBUG 25912 [omcat-handler-0] com.zaxxer.hikari.HikariConfig           1132 : dataSource......................none
+2024-06-29 15:05:43,724 [DESKTOP-00GDGS0] DEBUG 25912 [omcat-handler-0] com.zaxxer.hikari.HikariConfig           1132 : dataSourceClassName.............none
+2024-06-29 15:05:43,724 [DESKTOP-00GDGS0] DEBUG 25912 [omcat-handler-0] com.zaxxer.hikari.HikariConfig           1132 : dataSourceJNDI..................none
+2024-06-29 15:05:43,724 [DESKTOP-00GDGS0] DEBUG 25912 [omcat-handler-0] com.zaxxer.hikari.HikariConfig           1132 : dataSourceProperties............{password=<masked>}
+2024-06-29 15:05:43,725 [DESKTOP-00GDGS0] DEBUG 25912 [omcat-handler-0] com.zaxxer.hikari.HikariConfig           1132 : driverClassName................."com.mysql.cj.jdbc.Driver"
+2024-06-29 15:05:43,725 [DESKTOP-00GDGS0] DEBUG 25912 [omcat-handler-0] com.zaxxer.hikari.HikariConfig           1132 : exceptionOverrideClassName......none
+2024-06-29 15:05:43,725 [DESKTOP-00GDGS0] DEBUG 25912 [omcat-handler-0] com.zaxxer.hikari.HikariConfig           1132 : healthCheckProperties...........{}
+2024-06-29 15:05:43,726 [DESKTOP-00GDGS0] DEBUG 25912 [omcat-handler-0] com.zaxxer.hikari.HikariConfig           1132 : healthCheckRegistry.............none
+2024-06-29 15:05:43,726 [DESKTOP-00GDGS0] DEBUG 25912 [omcat-handler-0] com.zaxxer.hikari.HikariConfig           1132 : idleTimeout.....................600000
+2024-06-29 15:05:43,726 [DESKTOP-00GDGS0] DEBUG 25912 [omcat-handler-0] com.zaxxer.hikari.HikariConfig           1132 : initializationFailTimeout.......1
+2024-06-29 15:05:43,726 [DESKTOP-00GDGS0] DEBUG 25912 [omcat-handler-0] com.zaxxer.hikari.HikariConfig           1132 : isolateInternalQueries..........false
+2024-06-29 15:05:43,728 [DESKTOP-00GDGS0] DEBUG 25912 [omcat-handler-0] com.zaxxer.hikari.HikariConfig           1132 : jdbcUrl.........................jdbc:mysql://localhost:3306/health-care-data
+2024-06-29 15:05:43,728 [DESKTOP-00GDGS0] DEBUG 25912 [omcat-handler-0] com.zaxxer.hikari.HikariConfig           1132 : keepaliveTime...................0
+2024-06-29 15:05:43,728 [DESKTOP-00GDGS0] DEBUG 25912 [omcat-handler-0] com.zaxxer.hikari.HikariConfig           1132 : leakDetectionThreshold..........0
+2024-06-29 15:05:43,729 [DESKTOP-00GDGS0] DEBUG 25912 [omcat-handler-0] com.zaxxer.hikari.HikariConfig           1132 : maxLifetime.....................1800000
+2024-06-29 15:05:43,729 [DESKTOP-00GDGS0] DEBUG 25912 [omcat-handler-0] com.zaxxer.hikari.HikariConfig           1132 : maximumPoolSize.................3
+2024-06-29 15:05:43,729 [DESKTOP-00GDGS0] DEBUG 25912 [omcat-handler-0] com.zaxxer.hikari.HikariConfig           1132 : metricRegistry..................none
+2024-06-29 15:05:43,730 [DESKTOP-00GDGS0] DEBUG 25912 [omcat-handler-0] com.zaxxer.hikari.HikariConfig           1132 : metricsTrackerFactory...........none
+2024-06-29 15:05:43,730 [DESKTOP-00GDGS0] DEBUG 25912 [omcat-handler-0] com.zaxxer.hikari.HikariConfig           1132 : minimumIdle.....................3
+2024-06-29 15:05:43,730 [DESKTOP-00GDGS0] DEBUG 25912 [omcat-handler-0] com.zaxxer.hikari.HikariConfig           1132 : password........................<masked>
+2024-06-29 15:05:43,730 [DESKTOP-00GDGS0] DEBUG 25912 [omcat-handler-0] com.zaxxer.hikari.HikariConfig           1132 : poolName........................"HikariPool-1"
+2024-06-29 15:05:43,730 [DESKTOP-00GDGS0] DEBUG 25912 [omcat-handler-0] com.zaxxer.hikari.HikariConfig           1132 : readOnly........................false
+2024-06-29 15:05:43,730 [DESKTOP-00GDGS0] DEBUG 25912 [omcat-handler-0] com.zaxxer.hikari.HikariConfig           1132 : registerMbeans..................false
+2024-06-29 15:05:43,732 [DESKTOP-00GDGS0] DEBUG 25912 [omcat-handler-0] com.zaxxer.hikari.HikariConfig           1132 : scheduledExecutor...............none
+2024-06-29 15:05:43,732 [DESKTOP-00GDGS0] DEBUG 25912 [omcat-handler-0] com.zaxxer.hikari.HikariConfig           1132 : schema..........................none
+2024-06-29 15:05:43,732 [DESKTOP-00GDGS0] DEBUG 25912 [omcat-handler-0] com.zaxxer.hikari.HikariConfig           1132 : threadFactory...................internal
+2024-06-29 15:05:43,732 [DESKTOP-00GDGS0] DEBUG 25912 [omcat-handler-0] com.zaxxer.hikari.HikariConfig           1132 : transactionIsolation............default
+2024-06-29 15:05:43,732 [DESKTOP-00GDGS0] DEBUG 25912 [omcat-handler-0] com.zaxxer.hikari.HikariConfig           1132 : username........................"walnutek"
+2024-06-29 15:05:43,733 [DESKTOP-00GDGS0] DEBUG 25912 [omcat-handler-0] com.zaxxer.hikari.HikariConfig           1132 : validationTimeout...............5000
+2024-06-29 15:05:44,016 [DESKTOP-00GDGS0] DEBUG 25912 [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        414 : HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2024-06-29 15:05:44,022 [DESKTOP-00GDGS0] DEBUG 25912 [onnection adder] com.zaxxer.hikari.pool.HikariPool        738 : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4a5c1988
+2024-06-29 15:05:44,051 [DESKTOP-00GDGS0] DEBUG 25912 [onnection adder] com.zaxxer.hikari.pool.HikariPool        738 : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@b6113b3
+2024-06-29 15:05:44,064 [DESKTOP-00GDGS0] DEBUG 25912 [onnection adder] com.zaxxer.hikari.pool.HikariPool        414 : HikariPool-1 - After adding stats (total=3, active=0, idle=3, waiting=0)
+2024-06-29 15:06:14,021 [DESKTOP-00GDGS0] DEBUG 25912 [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        414 : HikariPool-1 - Pool stats (total=3, active=0, idle=3, waiting=0)
+2024-06-29 15:06:14,021 [DESKTOP-00GDGS0] DEBUG 25912 [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        521 : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-06-29 15:06:44,028 [DESKTOP-00GDGS0] DEBUG 25912 [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        414 : HikariPool-1 - Pool stats (total=3, active=0, idle=3, waiting=0)
+2024-06-29 15:06:44,028 [DESKTOP-00GDGS0] DEBUG 25912 [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        521 : HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2024-06-29 15:07:03,778 [DESKTOP-00GDGS0] DEBUG 25912 [ionShutdownHook] com.zaxxer.hikari.pool.HikariPool        414 : HikariPool-1 - Before shutdown stats (total=3, active=0, idle=3, waiting=0)
+2024-06-29 15:07:03,778 [DESKTOP-00GDGS0] DEBUG 25912 [nnection closer] com.zaxxer.hikari.pool.PoolBase          132 : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7b21dc24: (connection evicted)
+2024-06-29 15:07:03,783 [DESKTOP-00GDGS0] DEBUG 25912 [nnection closer] com.zaxxer.hikari.pool.PoolBase          132 : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4a5c1988: (connection evicted)
+2024-06-29 15:07:03,783 [DESKTOP-00GDGS0] DEBUG 25912 [nnection closer] com.zaxxer.hikari.pool.PoolBase          132 : HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@b6113b3: (connection evicted)
+2024-06-29 15:07:03,784 [DESKTOP-00GDGS0] DEBUG 25912 [ionShutdownHook] com.zaxxer.hikari.pool.HikariPool        414 : HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)

@@ -1,0 +1,4 @@
+2024-06-29 14:17:33,964 [DESKTOP-00GDGS0] DEBUG 15284 [           main] c.w.h.HealthCareApiApplication           51 : Running with Spring Boot v3.2.7, Spring v6.1.10
+2024-06-29 14:17:35,008 [DESKTOP-00GDGS0] DEBUG 15284 [           main] com.zaxxer.hikari.HikariConfig           968 : Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@36baf30c
+2024-06-29 14:17:47,578 [DESKTOP-00GDGS0] DEBUG 22760 [           main] c.w.h.HealthCareApiApplication           51 : Running with Spring Boot v3.2.7, Spring v6.1.10
+2024-06-29 14:17:48,639 [DESKTOP-00GDGS0] DEBUG 22760 [           main] com.zaxxer.hikari.HikariConfig           968 : Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@36baf30c

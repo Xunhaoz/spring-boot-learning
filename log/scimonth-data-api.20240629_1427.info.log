@@ -1,0 +1,22 @@
+2024-06-29 14:27:01,421 [DESKTOP-00GDGS0]  INFO 21544 [           main] c.w.h.HealthCareApiApplication           50 : Starting HealthCareApiApplication using Java 21 with PID 21544 (C:\Users\Xunhaoz\IdeaProjects\health-care-api\build\classes\java\main started by Xunhaoz in C:\Users\Xunhaoz\IdeaProjects\health-care-api)
+2024-06-29 14:27:01,424 [DESKTOP-00GDGS0]  INFO 21544 [           main] c.w.h.HealthCareApiApplication           654 : No active profile set, falling back to 1 default profile: "default"
+2024-06-29 14:27:02,315 [DESKTOP-00GDGS0]  INFO 21544 [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  109 : Tomcat initialized with port 8080 (http)
+2024-06-29 14:27:02,324 [DESKTOP-00GDGS0]  INFO 21544 [           main] o.a.coyote.http11.Http11NioProtocol      173 : The ["http-nio-8080"] connector has been configured to support HTTP upgrade to [h2c]
+2024-06-29 14:27:02,324 [DESKTOP-00GDGS0]  INFO 21544 [           main] o.a.coyote.http11.Http11NioProtocol      173 : Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-29 14:27:02,326 [DESKTOP-00GDGS0]  INFO 21544 [           main] o.apache.catalina.core.StandardService   173 : Starting service [Tomcat]
+2024-06-29 14:27:02,326 [DESKTOP-00GDGS0]  INFO 21544 [           main] o.apache.catalina.core.StandardEngine    173 : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-06-29 14:27:02,379 [DESKTOP-00GDGS0]  INFO 21544 [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       173 : Initializing Spring embedded WebApplicationContext
+2024-06-29 14:27:02,380 [DESKTOP-00GDGS0]  INFO 21544 [           main] w.s.c.ServletWebServerApplicationContext 296 : Root WebApplicationContext: initialization completed in 913 ms
+2024-06-29 14:27:02,958 [DESKTOP-00GDGS0]  INFO 21544 [           main] o.a.coyote.http11.Http11NioProtocol      173 : Starting ProtocolHandler ["http-nio-8080"]
+2024-06-29 14:27:02,971 [DESKTOP-00GDGS0]  INFO 21544 [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  241 : Tomcat started on port 8080 (http) with context path ''
+2024-06-29 14:27:02,977 [DESKTOP-00GDGS0]  INFO 21544 [           main] c.w.h.HealthCareApiApplication           56 : Started HealthCareApiApplication in 2.135 seconds (process running for 2.682)
+2024-06-29 14:27:08,273 [DESKTOP-00GDGS0]  INFO 21544 [omcat-handler-0] o.a.c.c.C.[Tomcat].[localhost].[/]       173 : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-29 14:27:08,273 [DESKTOP-00GDGS0]  INFO 21544 [omcat-handler-0] o.s.web.servlet.DispatcherServlet        532 : Initializing Servlet 'dispatcherServlet'
+2024-06-29 14:27:08,274 [DESKTOP-00GDGS0]  INFO 21544 [omcat-handler-0] o.s.web.servlet.DispatcherServlet        554 : Completed initialization in 0 ms
+2024-06-29 14:36:06,257 [DESKTOP-00GDGS0]  INFO 21544 [omcat-handler-9] com.zaxxer.hikari.HikariDataSource       110 : HikariPool-1 - Starting...
+2024-06-29 14:59:46,510 [DESKTOP-00GDGS0]  INFO 21544 [mcat-handler-15] com.zaxxer.hikari.HikariDataSource       110 : HikariPool-1 - Starting...
+2024-06-29 15:00:57,569 [DESKTOP-00GDGS0]  INFO 21544 [mcat-handler-17] com.zaxxer.hikari.HikariDataSource       110 : HikariPool-1 - Starting...
+2024-06-29 15:00:57,595 [DESKTOP-00GDGS0]  INFO 21544 [mcat-handler-17] com.zaxxer.hikari.pool.HikariPool        565 : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@620331dc
+2024-06-29 15:00:57,602 [DESKTOP-00GDGS0]  INFO 21544 [mcat-handler-17] com.zaxxer.hikari.HikariDataSource       123 : HikariPool-1 - Start completed.
+2024-06-29 15:05:37,619 [DESKTOP-00GDGS0]  INFO 21544 [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       350 : HikariPool-1 - Shutdown initiated...
+2024-06-29 15:05:37,622 [DESKTOP-00GDGS0]  INFO 21544 [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       352 : HikariPool-1 - Shutdown completed.

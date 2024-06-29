@@ -1,0 +1,83 @@
+app:
+  exec-init-sql: ${INIT:false}
+  init-value-mapping:
+    true: always
+    false: never
+  is-dev-mode: ${DEV_MODE:false}
+  package-name: health-care-api
+  name: scimonth-data-api
+  server-name: ${SERVER_NAME:localhost}
+  api-root-path: /api
+  logdir: ./log
+  jwt-key: ${JWT_KEY:69df8029ee03442e9ec3387515defed0}
+  jwt-expire-min: ${JWT_EXPIRE_MIN:43200}
+  storage-type: ${STORAGE_TYPE:minio}
+  minio:
+    host: ${FS_HOST:localhost}
+    port: ${FS_PORT:9000}
+    access-key: ${FS_USER:walnutek}
+    secret-key: ${FS_PWD:1qaz@WSX}
+  log-server:
+    send-enable: ${LOG_SERVER_SEND_ENABLE:false}
+    host: ${LOG_SERVER_HOST:13.56.233.208}
+    port: ${LOG_SERVER_PORT:12201}
+
+server:
+  port: 8080
+  http2:
+    enabled: true
+  compression:
+    enabled: true
+  error:
+    include-stacktrace: always
+  # https://tomcat.apache.org/tomcat-9.0-doc/config/valve.html#Access_Log_Valve
+  tomcat:
+    accesslog:
+      enabled: true
+      directory: ${app.name}
+      pattern: '%h [%I] "%r" %s %B %{begin:yyyy-MM-dd HH:mm:ss.SSS}t %{end:yyyy-MM-dd HH:mm:ss.SSS}t %D %F "%{Referer}i" "%{User-Agent}i"'
+
+springdoc:
+  api-docs:
+    enabled: ${app.is-dev-mode}
+    path: /docs
+  swagger-ui:
+    enabled: ${app.is-dev-mode}
+    path: /api/docs
+    operationsSorter: method
+
+spring:
+  application.name: health-care-api
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://${DB_HOST:localhost}:${DB_PORT:3306}/${DB_NAME:health-care-data}
+    username: ${DB_USERNAME:walnutek}
+    password: ${DB_PWD:1qaz@WSX}
+    hikari:
+      maximum-pool-size: ${DB_POOL_SIZE:3}
+  sql.init.mode: ${app.init-value-mapping.${app.exec-init-sql}}
+  
+  threads.virtual.enabled: true
+  
+  servlet:
+    multipart:
+      max-request-size: 20MB
+      max-file-size: 10MB
+
+  jackson:
+    date-format: yyyy/MM/dd
+    time-zone: ${TZ:Asia/Taipei}
+
+logging:
+  level:
+    com.walnutek.healthcareapi: debug
+    com.zaxxer.hikari.HikariConfig: debug
+    com.zaxxer.hikari: debug
+
+mybatis-plus:
+  mapper-locations: classpath*:/com/walnutek/${app.package-name}/model/dao/mapper/*.xml
+  #config-location: classpath:/mybatis-config.xml
+  type-aliases-package: com.walnutek.${app.package-name}.model.vo
+  configuration:
+    map-underscore-to-camel-case: false
+    call-setters-on-nulls: true

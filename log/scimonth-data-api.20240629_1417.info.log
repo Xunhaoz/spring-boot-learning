@@ -1,0 +1,27 @@
+2024-06-29 14:17:33,962 [DESKTOP-00GDGS0]  INFO 15284 [           main] c.w.h.HealthCareApiApplication           50 : Starting HealthCareApiApplication using Java 21 with PID 15284 (C:\Users\Xunhaoz\IdeaProjects\health-care-api\build\classes\java\main started by Xunhaoz in C:\Users\Xunhaoz\IdeaProjects\health-care-api)
+2024-06-29 14:17:33,964 [DESKTOP-00GDGS0]  INFO 15284 [           main] c.w.h.HealthCareApiApplication           654 : No active profile set, falling back to 1 default profile: "default"
+2024-06-29 14:17:34,854 [DESKTOP-00GDGS0]  INFO 15284 [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  109 : Tomcat initialized with port 8080 (http)
+2024-06-29 14:17:34,863 [DESKTOP-00GDGS0]  INFO 15284 [           main] o.a.coyote.http11.Http11NioProtocol      173 : The ["http-nio-8080"] connector has been configured to support HTTP upgrade to [h2c]
+2024-06-29 14:17:34,864 [DESKTOP-00GDGS0]  INFO 15284 [           main] o.a.coyote.http11.Http11NioProtocol      173 : Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-29 14:17:34,866 [DESKTOP-00GDGS0]  INFO 15284 [           main] o.apache.catalina.core.StandardService   173 : Starting service [Tomcat]
+2024-06-29 14:17:34,866 [DESKTOP-00GDGS0]  INFO 15284 [           main] o.apache.catalina.core.StandardEngine    173 : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-06-29 14:17:34,920 [DESKTOP-00GDGS0]  INFO 15284 [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       173 : Initializing Spring embedded WebApplicationContext
+2024-06-29 14:17:34,920 [DESKTOP-00GDGS0]  INFO 15284 [           main] w.s.c.ServletWebServerApplicationContext 296 : Root WebApplicationContext: initialization completed in 915 ms
+2024-06-29 14:17:35,482 [DESKTOP-00GDGS0]  INFO 15284 [           main] o.a.coyote.http11.Http11NioProtocol      173 : Starting ProtocolHandler ["http-nio-8080"]
+2024-06-29 14:17:35,491 [DESKTOP-00GDGS0]  INFO 15284 [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  241 : Tomcat started on port 8080 (http) with context path ''
+2024-06-29 14:17:35,497 [DESKTOP-00GDGS0]  INFO 15284 [           main] c.w.h.HealthCareApiApplication           56 : Started HealthCareApiApplication in 2.173 seconds (process running for 2.752)
+2024-06-29 14:17:47,576 [DESKTOP-00GDGS0]  INFO 22760 [           main] c.w.h.HealthCareApiApplication           50 : Starting HealthCareApiApplication using Java 21 with PID 22760 (C:\Users\Xunhaoz\IdeaProjects\health-care-api\build\classes\java\main started by Xunhaoz in C:\Users\Xunhaoz\IdeaProjects\health-care-api)
+2024-06-29 14:17:47,579 [DESKTOP-00GDGS0]  INFO 22760 [           main] c.w.h.HealthCareApiApplication           654 : No active profile set, falling back to 1 default profile: "default"
+2024-06-29 14:17:48,453 [DESKTOP-00GDGS0]  INFO 22760 [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  109 : Tomcat initialized with port 8080 (http)
+2024-06-29 14:17:48,463 [DESKTOP-00GDGS0]  INFO 22760 [           main] o.a.coyote.http11.Http11NioProtocol      173 : The ["http-nio-8080"] connector has been configured to support HTTP upgrade to [h2c]
+2024-06-29 14:17:48,464 [DESKTOP-00GDGS0]  INFO 22760 [           main] o.a.coyote.http11.Http11NioProtocol      173 : Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-29 14:17:48,466 [DESKTOP-00GDGS0]  INFO 22760 [           main] o.apache.catalina.core.StandardService   173 : Starting service [Tomcat]
+2024-06-29 14:17:48,466 [DESKTOP-00GDGS0]  INFO 22760 [           main] o.apache.catalina.core.StandardEngine    173 : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-06-29 14:17:48,529 [DESKTOP-00GDGS0]  INFO 22760 [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       173 : Initializing Spring embedded WebApplicationContext
+2024-06-29 14:17:48,531 [DESKTOP-00GDGS0]  INFO 22760 [           main] w.s.c.ServletWebServerApplicationContext 296 : Root WebApplicationContext: initialization completed in 909 ms
+2024-06-29 14:17:49,147 [DESKTOP-00GDGS0]  INFO 22760 [           main] o.a.coyote.http11.Http11NioProtocol      173 : Starting ProtocolHandler ["http-nio-8080"]
+2024-06-29 14:17:49,158 [DESKTOP-00GDGS0]  INFO 22760 [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  241 : Tomcat started on port 8080 (http) with context path ''
+2024-06-29 14:17:49,164 [DESKTOP-00GDGS0]  INFO 22760 [           main] c.w.h.HealthCareApiApplication           56 : Started HealthCareApiApplication in 2.209 seconds (process running for 2.752)
+2024-06-29 14:17:59,413 [DESKTOP-00GDGS0]  INFO 22760 [omcat-handler-0] o.a.c.c.C.[Tomcat].[localhost].[/]       173 : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-29 14:17:59,413 [DESKTOP-00GDGS0]  INFO 22760 [omcat-handler-0] o.s.web.servlet.DispatcherServlet        532 : Initializing Servlet 'dispatcherServlet'
+2024-06-29 14:17:59,414 [DESKTOP-00GDGS0]  INFO 22760 [omcat-handler-0] o.s.web.servlet.DispatcherServlet        554 : Completed initialization in 1 ms
